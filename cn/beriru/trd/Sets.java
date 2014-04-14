@@ -1,4 +1,4 @@
-package com.tencent.qqmail.trd.guava;
+package cn.beriru.trd;
 
 import java.util.Collection;
 import java.util.HashSet;

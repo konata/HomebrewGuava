@@ -1,4 +1,4 @@
-package com.tencent.qqmail.trd.guava;
+package cn.beriru.trd;
 
 import com.tencent.qqmail.trd.commonslang.StringUtils;
 
