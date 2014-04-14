@@ -18,7 +18,7 @@ public class Joiner{
 	}
 	
 	public String join(Iterable<?> items){
-		return StringUtils.join(items, mChar);
+		return StringUtils.join(items.iterator(), mChar);
 	}
 	
 	public String join(Object[] items){

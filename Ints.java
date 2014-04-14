@@ -28,6 +28,7 @@ public class Ints {
 		int position = 0;
 		for(int m : intList){
 			ret[position] = m;
+      position++;
 		}
 		return ret;
 	}
