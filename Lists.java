@@ -44,12 +44,4 @@ public class Lists {
 		}
 		return ret;
 	}
-	
-	
-	// test
-	public static void main(String args[]){
-		List<Integer> m = newArrayList();
-		List<String> n  = newArrayList();
-	}
-
 }
