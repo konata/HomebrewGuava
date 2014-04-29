@@ -2,7 +2,6 @@ package cn.beriru.trd;
 
 import java.util.List;
 
-import com.tencent.qqmail.trd.commonslang.StringUtils;
 
 public class Splitter{
 	

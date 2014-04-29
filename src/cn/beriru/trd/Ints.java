@@ -1,6 +1,5 @@
 package cn.beriru.trd;
 
-import java.lang.reflect.Array;
 import java.util.Collection;
 import java.util.List;
 

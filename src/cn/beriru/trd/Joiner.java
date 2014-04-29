@@ -1,6 +1,5 @@
 package cn.beriru.trd;
 
-import com.tencent.qqmail.trd.commonslang.StringUtils;
 
 public class Joiner{
 	private String mChar;

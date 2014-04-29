@@ -1,11 +1,13 @@
 package cn.beriru;
 import java.util.List;
+import java.util.Map;
 
 import cn.beriru.trd.Collections2;
 import cn.beriru.trd.Ints;
 import cn.beriru.trd.Iterables;
 import cn.beriru.trd.Joiner;
 import cn.beriru.trd.Lists;
+import cn.beriru.trd.Maps;
 import cn.beriru.trd.Predicate;
 import cn.beriru.trd.Sets;
 import cn.beriru.trd.Splitter;
@@ -85,6 +87,13 @@ public class HomeBrewGuava {
     p("should this,is,an,nice,test with random position",s);
     String _ = Joiner.on(",").join(Lists.newArrayList(Splitter.on(" ").split("this is an nice test")));
     p("should this,is,an,nice,test",_);
+    
+    
+    p("begin maps");
+    Map<String,String> maps = Maps.newHashMap("guanguan", "shabu").add("daguanguan", "dashabu").commit();
+    p("length should be 2: " , maps.size());
+    
+    
     p("====end====");
     
   }
